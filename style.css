@@ -1,0 +1,56 @@
+/* line 4, ../../../testgit/testGit/style.scss */
+body {
+  font: 100% Helvetica, sans-serif;
+  color: #333;
+}
+
+/* line 10, ../../../testgit/testGit/style.scss */
+nav ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+/* line 16, ../../../testgit/testGit/style.scss */
+nav li {
+  display: inline-block;
+}
+
+/* line 18, ../../../testgit/testGit/style.scss */
+nav a {
+  display: block;
+  padding: 6px 12px;
+  text-decoration: none;
+}
+
+/* line 30, ../../../testgit/testGit/style.scss */
+.box {
+  -webkit-transform: rotate(30deg);
+  -ms-transform: rotate(30deg);
+  transform: rotate(30deg);
+}
+
+/* This CSS will print because %message-shared is extended. */
+/* line 33, ../../../testgit/testGit/style.scss */
+.message, .success, .error, .warning {
+  border: 1px solid #ccc;
+  padding: 10px;
+  color: #333;
+}
+
+/* line 49, ../../../testgit/testGit/style.scss */
+.success {
+  border-color: green;
+}
+
+/* line 54, ../../../testgit/testGit/style.scss */
+.error {
+  border-color: red;
+}
+
+/* line 59, ../../../testgit/testGit/style.scss */
+.warning {
+  border-color: yellow;
+}
+
+/*# sourceMappingURL=style.css.map */
